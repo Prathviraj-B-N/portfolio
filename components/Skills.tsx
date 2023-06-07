@@ -17,9 +17,9 @@ const Skills = (props: Props) => {
             skills
         </h3>
 
-        <h3 className="absolute top-36 uppercase tracking-[3px] text-slate-300 text-sm">Hover over sills for proficiency</h3>
+        <h3 className="absolute top-36 uppercase tracking-[3px] text-slate-300 text-sm">Hover over skills for proficiency</h3>
 
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-4 gap-5 absolute top-24">
             <Skill/>
             <Skill/>
             <Skill/>

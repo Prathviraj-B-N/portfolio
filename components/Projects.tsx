@@ -8,7 +8,7 @@ const Projects = (props: Props) => {
       <h3 className="absolute top-24 uppercase tracking-[10px] text-slate-400 text-2xl">
         Projects
       </h3>
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-thin scrollbar-track-slate-600/30 scrollbar-thumb-green-300/80">
+      <div className="w-full absolute top-24 flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar-none scrollbar-track-slate-600/30 scrollbar-thumb-green-300/80">
         <ProjectCard/>
         <ProjectCard/>
         <ProjectCard/>

@@ -29,8 +29,8 @@ export default function Home() {
 
       
         <footer className="sticky bottom-5 w-full cursor-pointer">
-          <div className="flex items-end p-10">
-          <a href='#hero'><img className="h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer" src="/top.png" alt="" /> </a>
+          <div className="flex flex-row-reverse items-end p-5">
+          <a href='#hero'><img className="h-8 w-8 animate-pulse hover:grayscale-0 cursor-pointer z-20" src="/top.png" alt="" /> </a>
           </div>
         </footer>
     </div>
