@@ -12,7 +12,7 @@ const About = (props: Props) => {
       </h3>
       <motion.img
         src="/profile.jpg"
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
+        className="-mb-20 m-5 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]"
         initial={{
           x: -200,
           opacity: 0,

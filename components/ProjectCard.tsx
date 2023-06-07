@@ -7,7 +7,7 @@ type Props = {};
 
 const ProjectCard = (props: Props) => {
   return (
-    <article className="flex flex-col relative min-h-[128px] max-h-[624px] rounded-lg items-center space-y-1 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 opacity-40 hover:opacity-100 transition-opacity duration-200 cursor-pointer">
+    <article className="flex m-5 flex-col relative rounded-lg items-center space-y-1 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center bg-[#e93939] p-10 opacity-40 hover:opacity-100 transition-opacity duration-200 cursor-pointer">
       <Image
         src="/letter-p.png"
         alt="project-logo"

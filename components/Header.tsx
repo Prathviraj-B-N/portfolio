@@ -25,6 +25,7 @@ function Header({}: Props) {
       <SocialIcon url="https://twitter.com/Prathviraj_bn"  fgColor="gray" bgColor="transparent"/>
       <SocialIcon url="https://www.instagram.com/prath.v1/"  fgColor="gray" bgColor="transparent"/>
       </motion.div>
+
       <motion.div initial={{
         x: 500,
         opacity: 0,
@@ -38,8 +39,12 @@ function Header({}: Props) {
       }}
       
       transition={{duration: 1}}>
-        <a href="#contact">Contact Me</a>
-        <p className="hidden md:inline-flex text-sm text-gray-400">getInTouch();</p>
+        <a href="#contact" className="flex items-center justify-center gap-4">
+        <p className="hidden md:inline-flex text-sm text-gray-400">
+          Contact Me
+        </p>
+        <img src="/email.png" className="w-8 h-8 bg-slate-300 rounded-xl"/>
+        </a>
       </motion.div>
     </header>
   );
