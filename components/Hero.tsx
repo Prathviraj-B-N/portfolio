@@ -1,10 +1,11 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import TextRunner from './TextRunner'
 import BGCircle from './BGCircle';
+
 type Props = {}
 
 const Hero = (props: Props) => {
+
   return (
 
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
@@ -20,13 +21,13 @@ const Hero = (props: Props) => {
         <h2 className='text-sm uppercase text-gray-500 tracking-widest'>
             computer science engineer
         </h2>
-        <div className='min-h-[100px] ml-5'>
+        <div className='min-h-[192px] ml-5'>
             <TextRunner/>
         </div>
         <div className='pt-5'>
-          <Link href="#about"><button className='heroButton'>About</button></Link>
-          <Link href="#skills"><button className='heroButton'>Skills</button></Link>
-          <Link href="#projects"><button className='heroButton'>Projects</button></Link>
+          <a href="/#about" className='heroButton' >About</a>
+          <a href="/#skills" className='heroButton' >Skills</a>
+          <a href="/#projects" className='heroButton' >Projects</a>
         </div>
         </div>
     </div>

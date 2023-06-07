@@ -38,7 +38,7 @@ function Header({}: Props) {
       }}
       
       transition={{duration: 1}}>
-        <SocialIcon network="email"  fgColor="gray" bgColor="transparent"/>
+        <a href="#contact">Contact Me</a>
         <p className="hidden md:inline-flex text-sm text-gray-400">getInTouch();</p>
       </motion.div>
     </header>
