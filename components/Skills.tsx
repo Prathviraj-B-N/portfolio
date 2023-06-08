@@ -1,10 +1,13 @@
 "use client";
 import { motion } from 'framer-motion';
 import Skill from './Skill'
+import { Skill as SkillType } from '@/typings';
 
-type Props = {}
+type Props = {
+  skills: SkillType[]
+}
 
-const Skills = (props: Props) => {
+const Skills = ({skills}: Props) => {
   return (
     <motion.div 
     initial={{opacity: 0.2}}
@@ -20,21 +23,7 @@ const Skills = (props: Props) => {
         <h3 className="absolute top-36 uppercase tracking-[3px] text-slate-300 text-sm">Hover over skills for proficiency</h3>
 
         <div className="grid grid-cols-4 gap-5 absolute top-24">
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
-            <Skill/>
+            { skills.map((skill)=><Skill skill={skill}/>)}
         </div>
 
     </motion.div>

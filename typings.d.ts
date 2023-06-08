@@ -53,7 +53,7 @@ export interface Project extends SanityBody {
     dateStarted: date;
     dateEnded: date;
     isOngoing: boolean;
-    techStack: Technology;
+    techStack: Technology[];
     points: string[];
     description: string;
 }
