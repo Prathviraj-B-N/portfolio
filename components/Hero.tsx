@@ -1,28 +1,34 @@
 import Image from 'next/image';
 import TextRunner from './TextRunner'
 import BGCircle from './BGCircle';
+import { PageInfo } from '@/typings';
+import { urlFor } from '@/sanityHelper';
 
-type Props = {}
+type Props = {
+  pageInfo: PageInfo[]
+}
 
-const Hero = (props: Props) => {
+const Hero = ({pageInfo}: Props) => {
+
+  const pageData = pageInfo[0];
 
   return (
 
     <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden'>
         <BGCircle/>
         <Image
-        src="/profile-md.jpg"
+        src={urlFor(pageData.heroImage).url()}
         width={120}
         height={120}
-        alt="Picture of the author"
+        alt="ProfilePic"
         className='relative rounded-full mx-auto object-cover h-[130px] w-[130px] md:h-[156px] md:w-[156px]'
         />
         <div className='z-20'>
-        <h2 className='text-sm uppercase text-gray-500 tracking-widest'>
-            computer science engineer
+        <h2 className='text-sm uppercase text-gray-500 tracking-[15px] relative left-3'>
+            {pageData.role}
         </h2>
         <div className='min-h-[192px] ml-5'>
-            <TextRunner/>
+            <TextRunner />
         </div>
         <div className='pt-5'>
           <a href="/#about" className='heroButton' >About</a>

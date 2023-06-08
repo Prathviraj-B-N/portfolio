@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import {groq} from 'next-sanity';
-import { SanityClientCached } from "../../../sanity";
+import { SanityClientCached } from "../../../sanityHelper";
 import { Social } from "@/typings";
 
 type responseData = {
