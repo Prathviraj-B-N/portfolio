@@ -9,7 +9,7 @@ const TextRunner = (props: Props) => {
         "Hi, I'm Prathviraj B N",
         "<MTech @ IIIT Bangalore/>",
         "Full = (Stack) => {Developer} ",
-        "Bike Rides and Anime &#128151 "
+        "Bike Rides and Anime 👾 "
     ],
     loop:true,
     delaySpeed:1500,
