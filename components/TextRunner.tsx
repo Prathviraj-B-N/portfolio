@@ -6,10 +6,10 @@ type Props = {}
 
 const TextRunner = (props: Props) => {
     const [text,count] = useTypewriter({words: [
-        "Hi, i'm Prathviraj B N",
+        "Hi, I'm Prathviraj B N",
         "<MTech @ IIIT Bangalore/>",
         "Full = (Stack) => {Developer} ",
-        "Likes to watch anime "
+        "Bike Rides and Anime &#128151 "
     ],
     loop:true,
     delaySpeed:1500,
