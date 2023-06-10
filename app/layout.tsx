@@ -19,7 +19,7 @@ export default function RootLayout({
         <link rel="icon" type="image/x-icon" href="/logo.ico" />
       </head>
       <body className={inter.className}>{children}</body>
-            {/* <footer>
+      {/* <footer>
         <div>
           Icons made by
           <a href="https://www.flaticon.com/authors/popo2021" title="popo2021">
