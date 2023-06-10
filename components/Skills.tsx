@@ -23,7 +23,7 @@ const Skills = ({skills}: Props) => {
         <h3 className="absolute top-36 uppercase tracking-[3px] text-slate-300 text-sm">Hover/Click over skills for progress</h3>
 
         <div className="grid grid-cols-4 gap-5 absolute top-24">
-            { skills.map((skill)=><Skill skill={skill}/>)}
+            { skills.map((skill)=><Skill key={skill._id} skill={skill}/>)}
         </div>
 
     </motion.div>
