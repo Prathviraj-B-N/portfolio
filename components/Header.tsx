@@ -1,7 +1,7 @@
 "use client";
 import { SocialIcon } from "react-social-icons";
 import {motion} from "framer-motion";
-import { Social } from "@/typings";
+import { Social } from "@/helper/typings";
 
 type Props = {
   socials: Social[]
@@ -44,9 +44,6 @@ function Header({socials}: Props) {
       
       transition={{duration: 1}}>
         <a href="#contact" className="flex items-center justify-center gap-4">
-        <p className="hidden md:inline-flex text-sm text-gray-400">
-          Contact Me
-        </p>
         <img src="/email.png" className="w-8 h-8 bg-slate-300 rounded-full filter grayscale hover:grayscale-0 opacity-80 hover:opacity-100 animate-pulse relative top-2"/>
         </a>
       </motion.div>

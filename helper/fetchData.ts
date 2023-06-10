@@ -1,4 +1,4 @@
-import { Skill,Project,Social,PageInfo } from "@/typings";
+import { Skill,Project,Social,PageInfo } from "@/helper/typings";
 
 //TODO: Implement caching
 

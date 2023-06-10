@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,6 +10,6 @@
     }
 
     .contactInput {
-        @apply outline-none bg-slate-400/10 rounded-sm border-b px-4 py-4 border-[#242424] text-gray-500 placeholder-gray-500/50 transition-all focus:border-green-300 hover:border-green-400 focus:text-slate-300;
+        @apply outline-none bg-slate-400/10 rounded-sm border-b px-4 py-3 md:py-4 m-0 border-[#242424] text-gray-500 placeholder-gray-200/50 transition-all focus:border-green-300 hover:border-green-400 focus:text-slate-300;
     }
 }

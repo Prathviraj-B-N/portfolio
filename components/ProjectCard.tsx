@@ -1,7 +1,7 @@
 "use client";
 
-import { urlFor } from "@/sanityHelper";
-import { Project } from "@/typings";
+import { urlFor } from "@/helper/sanityHelper";
+import { Project } from "@/helper/typings";
 // import { motion } from "framer-motion";
 // import Image from "next/image";
 
