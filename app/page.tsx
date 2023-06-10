@@ -1,6 +1,6 @@
 import { Header, Hero, About, Projects, Skills, Contact } from "../components";
-import { PageInfo,Project,Skill,Social } from "@/typings";
-import { fetchPageInfo, fetchProjects, fetchSkills, fetchSocials } from "@/fetchData";
+import { PageInfo,Project,Skill,Social } from "@/helper/typings";
+import { fetchPageInfo, fetchProjects, fetchSkills, fetchSocials } from "@/helper/fetchData";
 
 type Data = {
     pageInfo:PageInfo[];

@@ -1,4 +1,4 @@
-import { Project } from "@/typings";
+import { Project } from "@/helper/typings";
 import ProjectCard from "./ProjectCard";
 
 type Props = {

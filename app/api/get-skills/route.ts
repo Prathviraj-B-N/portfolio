@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import {groq} from 'next-sanity';
-import { SanityClientCached } from "../../../sanityHelper";
-import { Skill } from "@/typings";
+import { SanityClientCached } from "../../../helper/sanityHelper";
+import { Skill } from "@/helper/typings";
 
 type responseData = {
     status: number;

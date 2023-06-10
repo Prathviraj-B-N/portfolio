@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import TextRunner from './TextRunner'
 import BGCircle from './BGCircle';
-import { PageInfo } from '@/typings';
-import { urlFor } from '@/sanityHelper';
+import { PageInfo } from '@/helper/typings';
+import { urlFor } from '@/helper/sanityHelper';
 
 type Props = {
   pageInfo: PageInfo[]
