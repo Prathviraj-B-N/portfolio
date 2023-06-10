@@ -1,9 +1,9 @@
-import {defineField, defineType} from 'sanity'
+import { defineField, defineType } from "sanity";
 
 export default defineType({
-  name: 'pageInfo',
-  title: 'PageInfo',
-  type: 'document',
+  name: "pageInfo",
+  title: "PageInfo",
+  type: "document",
   fields: [
     defineField({
       title: "Name",
@@ -19,9 +19,9 @@ export default defineType({
       title: "Image",
       name: "heroImage",
       type: "image",
-      options:{
-        hotspot: true
-      }
+      options: {
+        hotspot: true,
+      },
     }),
     defineField({
       title: "BackgroundInformation",
@@ -32,9 +32,9 @@ export default defineType({
       title: "ProfilePic",
       name: "profilePic",
       type: "image",
-      options:{
-        hotspot: true
-      }
+      options: {
+        hotspot: true,
+      },
     }),
     defineField({
       title: "PhoneNumber",
@@ -55,12 +55,12 @@ export default defineType({
       title: "Socials",
       name: "socials",
       type: "array",
-      of: [{
-        type: "reference",
-        to: { type: "social"}
-      }]
+      of: [
+        {
+          type: "reference",
+          to: { type: "social" },
+        },
+      ],
     }),
-
-
   ],
-})
+});

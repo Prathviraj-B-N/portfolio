@@ -40,7 +40,7 @@ export default function RootLayout({
           2XL
         </div>
       </div>
-            {/* <footer>
+      {/* <footer>
         <div>
           Icons made by
           <a href="https://www.flaticon.com/authors/popo2021" title="popo2021">
