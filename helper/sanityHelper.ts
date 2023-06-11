@@ -6,7 +6,7 @@ export const config = {
     dataset:  process.env.NEXT_PUBLIC_SANITY_DATASET || 'production',
     projectId : process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!,
     apiVersion: '2023-06-07',
-    useCdn: true
+    useCdn: false
 }
 const client = createClient(config);
 export const SanityClientCached = cache(client.fetch.bind(client))
