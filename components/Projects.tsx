@@ -6,7 +6,7 @@ type Props = {
 };
 
 const Projects = ({projects}: Props) => {
-  console.log(projects)
+  // console.log(projects)
   return (
     <div className="h-screen flex flex-col relative text-center overflow-hidden md:text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center">
       <h3 className="absolute top-24 uppercase tracking-[10px] text-slate-400 text-2xl">

@@ -16,7 +16,7 @@ const Contact = (props: Props) => {
   const { register, handleSubmit } = useForm<FormValues>();
   const onSubmit: SubmitHandler<FormValues> = (data) => {
     window.location.href = `mailto:prathviraj.b.n@gmail?subject=${data.subject}&body=Hi, i'm ${data.name}. ${data.msg}`;
-    console.log(data);
+    // console.log(data);
   };
   return (
     <div className="h-screen flex top-24 flex-col relative text-left max-w-7xl px-10 mx-auto items-center gap-5">

@@ -26,7 +26,7 @@ const ProjectCard = ({project}: Props) => {
         <p className="font-bold text-2xl mt-1">{project.technology}</p>
         <div className="flex space-x-2 my-2">
           {project.techStack.map((tech)=>
-            <img id={tech._id} src={urlFor(tech.image).url()} className="md:h-10 md:w-10 h-5 w-5 rounded-full " alt="" />
+            <img key={tech._id} src={urlFor(tech.image).url()} className="md:h-10 md:w-10 h-5 w-5 rounded-full " alt="" />
           )}
            </div>
         <p className="uppercase py-5 text-slate-400">{project.dateStarted} to <span/>

@@ -22,6 +22,7 @@ const Hero = ({pageInfo}: Props) => {
         height={120}
         alt="ProfilePic"
         className='relative rounded-full mx-auto object-cover h-[130px] w-[130px] md:h-[156px] md:w-[156px]'
+        priority
         />
         <div className='z-20'>
         <h2 className='text-sm uppercase text-gray-500 tracking-[15px] relative left-3'>
